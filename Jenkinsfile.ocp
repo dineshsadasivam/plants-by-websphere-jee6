@@ -14,7 +14,7 @@ pipeline {
     }
     stage("Build EAR") {
       steps {
-         sh "mvn clean package -Popenshift"
+         sh "mvn clean package -s settings.xml -Popenshift"
       }
     }
     stage("Build Image") {
