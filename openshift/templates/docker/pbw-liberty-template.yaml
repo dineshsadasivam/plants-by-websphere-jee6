@@ -90,7 +90,6 @@ objects:
     strategy:
       type: Recreate
     triggers:
-    triggers:
      - type: ImageChange
        imageChangeParams:
          automatic: true
