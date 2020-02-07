@@ -24,7 +24,7 @@ parameters:
   description:                            The source URL for the application
   displayName:                            Source URL
   required:                               true
-  value:                                  https://github.com/changeme/app-modernization-plants-by-websphere-jee6.git
+  value:                                  https://github.com/dineshsadasivam/plants-by-websphere-jee6
 - name:                                   GIT_SOURCE_REF
   description:                            The source Ref for the application
   displayName:                            Source Ref
