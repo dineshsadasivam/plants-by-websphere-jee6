@@ -61,6 +61,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: websphere-liberty:javaee7
+          namespace: openshift
     output:
       to:
         kind: ImageStreamTag
